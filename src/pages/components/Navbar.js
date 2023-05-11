@@ -45,19 +45,19 @@ export default function Navbar() {
                     <div className="flex justify-between relative  z-30">
                         {/* <Logo></Logo> */}
                         <Link href="/" className={`flex items-center ${styles.logo}`}>
-                            <span className="igor">Igor</span>
+                            <span className="igor">Dikshant</span>
                             <span className={`text-tertiary text-5xl font-bold ${styles.logoX}`}>X</span>
-                            <span className="xavier">avier</span>
+                            <span className="xavier">Solanki</span>
                         </Link>
                         <div className="md:flex hidden space-x-3 items-center">
-                            <AnchorLink className={styles.link} href='#about'>sobre</AnchorLink>
-                            <AnchorLink className={styles.link} href='#knowlodge'>conhecimentos</AnchorLink>
-                            <AnchorLink className={styles.link} href='#experience'>experiências</AnchorLink>
-                            <AnchorLink className={styles.link} href='#projects'>projetos</AnchorLink>
-                            <AnchorLink className={styles.link} href='#contact'>contato</AnchorLink>
-                            <a className={`${styles.curriculum} flex items-center rounded-lg text-sm px-4 py-2`} href="/curriculo.pdf" target="_blank" rel="noreferrer">
+                            <AnchorLink className={styles.link} href='#about'>About</AnchorLink>
+                            <AnchorLink className={styles.link} href='#knowlodge'>Knowledge</AnchorLink>
+                            <AnchorLink className={styles.link} href='#experience'>Experience</AnchorLink>
+                            <AnchorLink className={styles.link} href='#projects'>Projects</AnchorLink>
+                            <AnchorLink className={styles.link} href='#contact'>Contact</AnchorLink>
+                            <a className={`${styles.curriculum} flex items-center rounded-lg text-sm px-4 py-2`} href="/resume.pdf" target="_blank" rel="noreferrer">
                                 <Document></Document>
-                                <p className="ml-3">currículo</p>
+                                <p className="ml-3">Resume</p>
                             </a>
                         </div>
                         <div className="md:hidden flex items-center">
