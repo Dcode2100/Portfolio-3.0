@@ -26,8 +26,6 @@ export default function Home() {
         <meta name="author" content="Dikshant Solanki" />
 
         <meta charSet="utf-8" />
-
-      
       </Head>
       <Navbar />
       <main className="overflow-hidden pb-10 w-full relative">

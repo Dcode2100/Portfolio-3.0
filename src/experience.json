@@ -1,45 +1,25 @@
 [
     {
-        "name": "VCOM Tecnologia",
-        "period": "jan de 2022 - dez de 2022",
-        "title": "Desenvolvedor",
-        "responsibilities": [
-            "Melhorias em telas já existentes de produtos e sistemas internos",
-            "Desenvolvimento de relatórios usando CrystalReports e ReportBuilder",
-            "Desenvolvimento de procedures em SQL Server",
-            "Reuniões diárias sobre o progresso das tarefas desenvolvidas junto a metodologia Kanban"
-        ]
+      "name": "Zerror Studios",
+      "role": "FullStack Developer",
+      "period": "March 2023 - April 2023",
+      "responsibilities": [
+        "Developed the frontend of a political party website using the NEXT.JS framework.",
+        "Implemented scroll optimization with GSAP for a seamless scrolling experience.",
+        "Employed lazy loading techniques for heavy graphic content.",
+        "Implemented dynamic routing to efficiently manage multiple links with similar content.",
+        "Developed multi-level login forms and integrated backend APIs for secure data connectivity, authentication, and authorization."
+      ]
     },
     {
-        "name": "Williarts ",
-        "period": "abr de 2021 - dez de 2021",
-        "title": "Desenvolvedor",
-        "responsibilities": [
-            "Desenvolvimento de aplicações multiplataformas utilizando AngularJS e Ionic Framework",
-            "Adaptações em aplicações a fim de melhorar a interface e experiência do usuário",
-            "Comunicação ativa com os desenvolvedores e stackholders envolvidos nos projetos"
-        ]
-    },
-    {
-        "name": "Agência Kender",
-        "period": "mar de 2020 - mar de 2021",
-        "title": "Desenvolvedor web",
-        "responsibilities": [
-            "Prototipação de landing pages, sistemas, definição de fluxo de navegação do usuário",
-            "Criação de novas páginas web em e-commerces",
-            "Desenvolvimento de landing pages",
-            "Otimização de SEO em landing pages e e-commerces"
-        ]
-    },
-    {
-        "name": "Multisistemas",
-        "period": "ago de 2018 - ago de 2019",
-        "title": "Desenvolvedor web",
-        "responsibilities": [
-            "Criação de novas telas usando HTML, CSS, Bootstrap e Javascript",
-            "Refatoração do sistema, melhoria em telas e fluxos já existentes",
-            "Atendimento de demandas de suporte ao cliente",
-            "Manutenção em banco de dados"
-        ]
+      "name": "Proteus Advisors Pvt Ltd",
+      "role": "Frontend Developer",
+      "period": "August 2022 - April 2022",
+      "responsibilities": [
+        "Restructured and built React.js code to enhance the architecture and maintainability of the business landing page.",
+        "Employed modern UI/UX principles to create a responsive design, optimizing the page's presentation.",
+        "Facilitated seamless sharing with potential clients."
+      ]
     }
-]
+  ]
+  
