@@ -68,7 +68,7 @@ export default function Header() {
       <h2
         className={`${styles.function} md:text-6xl text-3xl font-bold text-secondary mt-2`}
       >
-        I am a developer.<span className={styles.front}>Front-end</span>
+        I am a <span className={styles.front}>Front-end </span>developer.
       </h2>
       <h3
         className={`${styles.description} text-secondary leading-loose max-w-2xl mt-8 md:text-base text-sm`}
