@@ -35,10 +35,13 @@ export default function Projects() {
 
   const callAPI = async () => {
     try {
-      const res = await fetch(`https://api.github.com/users/dcode2100/repos`);
+      //   const res = await fetch(`https://api.github.com/users/dcode2100/repos`);
+      const res = await fetch(
+        `https://gh-pinned-repos.egoist.dev/?username=dcode2100`
+      );
       let data = await res.json();
-      data = data.filter((project) => project.description !== null);
-    //   data.sort((a, b) => a.pushed_at > b.pushed_at);
+      console.log(data);
+      console.log(data.project);
       setProjects(data);
     } catch (err) {
       console.log(err);
@@ -70,7 +73,7 @@ export default function Projects() {
             <div className="md:flex-row justify-between items-center w-full relative z-10">
               <div className="">
                 <div className="flex flex-row items-center">
-                  <h3 className="font-bold text-xl">{project.name}</h3>
+                  <h3 className="font-bold text-xl">{project.repo}</h3>
                 </div>
 
                 <div className="flex flex-row mt-4">
@@ -83,7 +86,7 @@ export default function Projects() {
                   >
                     <Github />
                   </a>
-                  {project.homepage != null && project.homepage != "" ? (
+                  {/* {project.homepage != null && project.homepage != "" ? (
                     <a
                       href={project.homepage}
                       aria-label="link"
@@ -93,14 +96,22 @@ export default function Projects() {
                     >
                       <Link />
                     </a>
-                  ) : null}
+                  ) : null} */}
                 </div>
 
-                <p className="my-6 bg-dark text-sm leading-loose rounded-md px-4 py-4 relative z-10 max-w-full ">
-                  {project.description}
+                <p className="my-6 bg-dark text-sm leading-loose flex rounded-md px-4 py-4 relative z-10 max-w-full ">
+                  <a
+                    href={project.website}
+                    aria-label="link"
+                    className="rounded-full bg-dark p-2 cursor-pointer flex"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Link /> {project.website}
+                  </a>
                 </p>
 
-                <div className="flex flex-row flex-wrap">
+                {/* <div className="flex flex-row flex-wrap">
                   {project.topics.map((topic, index) => (
                     <span
                       className="px-2 py-1 font-normal text-sm text-tertiary rounded-md mr-2 mt-2"
@@ -109,7 +120,7 @@ export default function Projects() {
                       {topic}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="noise"></div>
