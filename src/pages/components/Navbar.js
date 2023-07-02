@@ -76,14 +76,14 @@ export default function Navbar() {
             </nav>
             <aside className={menuActive? `${styles.mobile} ${styles.on} backdrop-blur-md` : `${styles.mobile}`}>
                 <div className="flex flex-col gap-3 justify-end text-right m-0 ml-auto relative z-10">
-                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#about'>sobre</AnchorLink>
-                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#knowlodge'>conhecimentos</AnchorLink>
-                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#experience'>experiências</AnchorLink>
-                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#projects'>projetos</AnchorLink>
-                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#contact'>contato</AnchorLink>
-                    <a className={`${styles.curriculum} flex items-center text-sm px-4 py-3 justify-center mt-10 rounded-lg`} href="/curriculo.pdf" target="_blank" rel="noreferrer">
+                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#about'>About</AnchorLink>
+                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#knowlodge'>Knowledge</AnchorLink>
+                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#experience'>Experience</AnchorLink>
+                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#projects'>Projects</AnchorLink>
+                    <AnchorLink onClick={() => setMenuActive(!menuActive)} className="text-xl py-2 " href='#contact'>Contact</AnchorLink>
+                    <a className={`${styles.curriculum} flex items-center text-sm px-4 py-3 justify-center mt-10 rounded-lg`}  href="/resume.pdf" target="_blank" rel="noreferrer">
                         <Document></Document>
-                        <p className="ml-3">currículo</p>
+                        <p className="ml-3">Resume</p>
                     </a>
                 </div>
                 <div className="noise"></div>
