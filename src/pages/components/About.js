@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import User from "./icons/user";
 import Image from "next/image";
 import me from "/public/foto-perfil.png";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
@@ -99,11 +100,11 @@ export default function About() {
 
         <div className="md:col-span-1 md:mt-0 mt-20">
           <div className={`${styles.imgBox} mx-auto`}>
-            <Image className={styles.img} src={me} alt="Foto de Igor Xavier" />
+            <Image className={styles.img} src={me} alt="photo of dikshant solanki" />
             <Image
               className={styles.imgGlass}
               src={me}
-              alt="Foto desfocada de Igor Xavier"
+              alt="photo of dikshant solanki"
             />
             <div className={styles.squareImg}>
               <div
