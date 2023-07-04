@@ -70,8 +70,9 @@ export default function Contact() {
           </a>
         </p>
         <a
-          className="button mt-20 mx-auto"
-          href="mailto:dikshantsolanki214@gmail.com"
+          className="button mt-20 mx-auto cursor-pointer"
+          
+          onClick={() =>(window.location.href='mailto:dikshantsolanki214@gmail.com@example.com')}
         >
           {" "}
           <Mail /> Contact Me!

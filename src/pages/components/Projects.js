@@ -78,9 +78,9 @@ export default function Projects() {
 
                 <div className="flex flex-row mt-4">
                   <a
-                    href={project.html_url}
+                    href={project.link}
                     aria-label="github"
-                    className="rounded-full bg-dark p-2 mr-2"
+                    className="rounded-full bg-dark p-2 mr-2 cursor-pointer"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -107,7 +107,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Link /> {project.website}
+                    <Link /> LiveLink
                   </a>
                 </p>
 

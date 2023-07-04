@@ -22,7 +22,7 @@ export default function Footer() {
                 <a className="mx-2" aria-label="linkedin" href="https://www.linkedin.com/in/igorxavierdasilva/" target="_blank" rel="noreferrer">
                     <Linkedin/>
                 </a>
-                <a className="mx-2" aria-label="instagram" href="https://www.instagram.com/igorxavi_/" target="_blank" rel="noreferrer">
+                <a className="mx-2" aria-label="instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
                     <Instagram/>
                 </a>
                 <a className="mx-2" aria-label="github" href="https://github.com/igorxaviers/" target="_blank" rel="noreferrer">
