@@ -68,32 +68,32 @@ export default function Knowledge() {
             <p className="text-lg text-secondary">React</p>
           </div>
           <div className={styles.technology}>
-            <Js />
-            <p className="text-lg text-secondary">JS (ES6+)</p>
+            <Node />
+            <p className="text-lg text-secondary">Node.js</p>
           </div>
           <div className={styles.technology}>
             <Typescript />
             <p className="text-lg text-secondary">Typescript</p>
           </div>
           <div className={styles.technology}>
-            <Node />
-            <p className="text-lg text-secondary">Node.js</p>
+          <Js />
+            <p className="text-lg text-secondary">JS (ES6+)</p>
           </div>
           <div className={styles.technology}>
             <Bootstrap />
-            <p className="text-lg text-secondary">Bootstrap</p>
+            <p className="text-lg text-secondary">Express</p>
           </div>
           <div className={styles.technology}>
             <Tailwind />
-            <p className="text-lg text-secondary">TailwindCSS</p>
+            <p className="text-lg text-secondary">Azure devops</p>
           </div>
           <div className={styles.technology}>
             <Css />
-            <p className="text-lg text-secondary">CSS</p>
+            <p className="text-lg text-secondary">.Net WebAPI</p>
           </div>
           <div className={styles.technology}>
             <Html />
-            <p className="text-lg text-secondary">HTML</p>
+            <p className="text-lg text-secondary">SQL</p>
           </div>
         </div>
         <div className="noise"></div>

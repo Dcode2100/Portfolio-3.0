@@ -1,25 +1,36 @@
 [
-    {
+    
+  {
+    "name": "Prabhudas Lilladher Pvt. Ltd",
+    "role": "Frontend Developer",
+    "period": "Seeptember 2023 - Present",
+    "responsibilities": [
+      "PLSGB - In-House SGB Applying Portal: Developed an internal portal for SGB applications, integrating OTP-based authorization, resilient session management, and JWT-based authentication. Seamlessly incorporated Razor Pay, resulting in a substantial revenue milestone exceeding 3 million and facilitating the sale of over 5kg of SGB for the company through a single project.",
+      "PLAdvisory - Broker, Sub-Broker, PP Management System with Multilevel Login: Architected a resilient management system with multilevel login capabilities, tables, and dashboards. Implemented key features such as pagination, sorting, and filtering for an enhanced user experience. Optimized the system for superior performance, consistently achieving a Lighthouse score above 85.",
+      "Trade,Script analyses performance dashboard : Elevated efficiency by 30% for brokers requiring comprehensive analysis of trades conducted by PL Capital. Achieved this developing a Node backend coupled with a WebSocket-enabled frontend dashboard. This enables brokers to observe live trades and conduct in-depth analyses."
+    ]
+  },
+  {
+    "name": "Proteus Advisors Pvt. Ltd",
+    "role": "React Developer (Full-time)",
+    "period": "March 2023 - August 2023",
+    "responsibilities": [
+      "Media Management, inventory monitoring system: Refactored and built Reactjs application, enhancing the architecture and reusability of different features. the development of a media management application, enabling efficient organization and retrieval of multimedia assets for clients.",
+      "Ticket Raising System: Led development of an in-house system with department-specific login and a user-friendly interface, optimizing management for employees and managers across various departments.",
+      "ASP.NET MVC to React Migration: migrated ASP.NET Web API application to React, significantly improving performance in rendering data-heavy tables and media content."
+    ]
+  },
+  {
       "name": "Zerror Studios",
       "role": "FullStack Developer",
-      "period": "March 2023 - April 2023",
+      "period": "January 2023 - Febraury 2023",
       "responsibilities": [
-        "Developed the frontend of a political party website using the NEXT.JS framework.",
-        "Implemented scroll optimization with GSAP for a seamless scrolling experience.",
-        "Employed lazy loading techniques for heavy graphic content.",
+        "Developed the frontend of a political org website-app using NEXT.JS framework. ",
+        "Implemented scroll optimization with GSAP for seamless scrolling experience and employed lazy loading techniques for heavy graphic content.",
         "Implemented dynamic routing to efficiently manage multiple links with similar content.",
-        "Developed multi-level login forms and integrated backend APIs for secure data connectivity, authentication, and authorization."
-      ]
-    },
-    {
-      "name": "Proteus Advisors Pvt Ltd",
-      "role": "Frontend Developer",
-      "period": "August 2022 - April 2022",
-      "responsibilities": [
-        "Restructured and built React.js code to enhance the architecture and maintainability of the business landing page.",
-        "Employed modern UI/UX principles to create a responsive design, optimizing the page's presentation.",
-        "Facilitated seamless sharing with potential clients."
+        "Developed multi-level login forms, integrated backend APIs for secure data connectivity and proper authentication and authorization."
       ]
     }
+    
   ]
   

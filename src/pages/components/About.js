@@ -64,29 +64,33 @@ export default function About() {
       <div className="md:mt-20 mt-10 md:grid grid-flow-col grid-cols-3">
         <div className="md:col-span-2">
           <p className=" text-secondary leading-relaxed">
-            My name is Dikshant Solanki. I have been constantly studying
-            technologies that can contribute to my projects and professional
-            ambitions. My initial projects were built using pure HTML5 and CSS3,
-            creating and recreating existing websites.
+          Hello! 👋 I'm Dikshant Solanki, a Mumbai-based BE graduate fueled by innovation. As a FullStack Developer, 
+          I bring hands-on experience with a versatile tech stack including 
+          React, Node.js, Express.js, ASP.NET WebAPI, and various libraries.
           </p>
 
           <p className="mt-4 text-secondary leading-relaxed">
-            I am 22 years old, graduated with a Bachelor's degree from Mumbai
-            University (2019-2023). Participated and served as President of the
-            committee of ISA, and managed national level event like Yantra and
-            VNPS.
+          
+          <h1 className={`${styles.about_heading}`}>Tech Journey:</h1>
+          <br/>
+<h4 className={`${styles.about_title}`}>Frontend:</h4>
+In the frontend realm, my expertise extends to designing React hooks for a streamlined design system, seamlessly integrating Formik, Zod, Supabase Auth, and leveraging the magic of GSAP, Chart.js, and D3.js for visually stunning websites.
           </p>
 
           <p className="mt-4 text-secondary leading-relaxed">
-            Specialized in Front-end and always seeking to improve, I have
-            worked on various aspects of web development, including Designing,
-            and the development of simple and scalable parts of applications. I
-            prioritize good UI/UX practices and utilize modern programming
-            languages and best practices.
+          
+          <h4 className={`${styles.about_title}`}>Backend and DevOps:</h4>
+On the backend, I've delved into various aspects, including webhooks, Azure DevOps, Node.js, Express.js, Next.js (Version 12), and Oracle SQL. I have hands-on experience in crafting different complex cron jobs, ensuring the backend is as efficient as the frontend.
           </p>
           <p className="mt-4 text-secondary leading-relaxed mb-4">
-            Currently, I am deepening my knowledge in:
+          As part of DevOps, I've not only worked with Azure DevOps but also created robust CI/CD pipelines for UAT and live environments. Configuration and optimization are my forte in ensuring smooth deployment processes.
           </p>
+          <p className="mt-4 text-secondary leading-relaxed mb-4">
+      
+          <h4 className={`${styles.about_title}`}>Achievements and Pride:</h4>
+I take pride in creating a design system for dynamic components in PDF generation, crafting hooks for image and PDF compression, not just relying on libraries but also manipulating the canvas. Achievements range from a 3-star coder rating on Codechef to tackling 300+ questions on platforms like Leetcode. I'm ready to connect, explore exciting opportunities, and share more success stories! 🚀✨
+          </p>
+          
           <ul
             className={`${styles.topics} grid md:grid-cols-3 grid-cols-2 gap-3 text-sm text-left`}
           >
