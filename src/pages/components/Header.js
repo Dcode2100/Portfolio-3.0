@@ -73,8 +73,8 @@ export default function Header() {
       <h3
         className={`${styles.description} text-secondary leading-loose max-w-2xl mt-8 md:text-base text-sm`}
       >
-        Specialized in modern front-end application development (occasionally
-        creating designs) that are responsive, high-performing, & good UI/UX.
+        Specialized in modern full-stack web development, I create
+        user-friendly, responsive, and accessible websites and applications.
       </h3>
       <AnchorLink className="button mt-20 ml-0" href="#about">
         <Arrow /> More about me
